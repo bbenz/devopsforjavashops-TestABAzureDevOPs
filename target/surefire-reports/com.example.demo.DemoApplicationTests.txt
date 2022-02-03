@@ -1,10 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: com.example.demo.DemoApplicationTests
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 7.62 s <<< FAILURE! - in com.example.demo.DemoApplicationTests
-contextLoads  Time elapsed: 0.002 s  <<< ERROR!
-java.lang.IllegalStateException: Failed to load ApplicationContext
-Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'initConnectionString' defined in class path resource [com/microsoft/azure/spring/cloud/config/AppConfigurationBootstrapConfiguration.class]: Unsatisfied dependency expressed through method 'initConnectionString' parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'spring.cloud.azure.appconfiguration-com.microsoft.azure.spring.cloud.config.AppConfigurationProperties': Invocation of init method failed; nested exception is java.lang.IllegalStateException: Connection string does not follow format Endpoint=([^;]+);Id=([^;]+);Secret=([^;]+).
-Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'spring.cloud.azure.appconfiguration-com.microsoft.azure.spring.cloud.config.AppConfigurationProperties': Invocation of init method failed; nested exception is java.lang.IllegalStateException: Connection string does not follow format Endpoint=([^;]+);Id=([^;]+);Secret=([^;]+).
-Caused by: java.lang.IllegalStateException: Connection string does not follow format Endpoint=([^;]+);Id=([^;]+);Secret=([^;]+).
-
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 5.589 s - in com.example.demo.DemoApplicationTests
